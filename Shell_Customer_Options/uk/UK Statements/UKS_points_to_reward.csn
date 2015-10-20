@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="UKS_points_to_reward" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[{{customer_option field='E42' name='UKS_points_to_reward'}}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

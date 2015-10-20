@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="GR_Pt_ed_dt" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[{{customer_option field='E40' name='GR_Pt_ed_dt'}}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

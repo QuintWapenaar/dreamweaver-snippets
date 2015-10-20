@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="State" description="Provincie" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[{{customer field='state'}}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

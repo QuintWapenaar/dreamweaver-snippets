@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="THNK_click_date" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[{{customer_option field='E51' name='THNK_click_date'}}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

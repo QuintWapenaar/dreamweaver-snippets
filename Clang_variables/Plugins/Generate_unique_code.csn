@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Generate unique code" description="Waarde vanaf 5 t/m 20 (bv. generatepassword='11'). Voeg deze toe aan een klantveld variabele" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[generatepassword='']]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

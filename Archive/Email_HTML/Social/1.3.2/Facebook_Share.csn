@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Facebook Share" description="Facebook Share" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<a href="{{social network='facebook' type='share' title='' url=''}}" target="_blank" title="" alt="html - facebook - Share"><img src="http://myclang.com/resources/socialmedia/images/en/facebook_share.gif" title="" alt="Share" width="57" height="20" border="0" style="display: inline;" /></a>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="String replace" description="Reeks vervangen (bv. stringreplace='X\,Y' vervangt X met Y). Voeg deze toe aan een klantveld variabele" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[stringreplace='\,']]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

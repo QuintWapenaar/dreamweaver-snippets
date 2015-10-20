@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Classic Sharebutton Facebook" description="Classic Sharebutton Facebook" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<a title="Delen op Facebook" alt="html - Delen op Facebook" href="http://www.facebook.com/sharer.php?u=&t=" target="_blank"><img src="http://myclang.com/images/facebook.gif" alt="Delen op Facebook" width="15" height="17" border="0" style="display:inline;"></a>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

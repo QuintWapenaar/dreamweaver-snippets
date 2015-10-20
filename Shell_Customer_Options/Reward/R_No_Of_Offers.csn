@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="R_No_Of_Offers" description="" preview="html" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[{{campaign_option field='F17' campaignid='' name='R_No_Of_Offers'}}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="R_Basestock_Band" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[{{campaign_option field='F12' campaignid='' name='R_Basestock_Band'}}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

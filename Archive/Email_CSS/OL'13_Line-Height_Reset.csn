@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="OL'13 Line-Height Reset" description="Voorkomt dat OL'13 lege td's weergeeft met een hoogte van 15px" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!--[if gte mso 15]>
+<style type="text/css">
+	table {
+    	font-size: 1px;
+        mso-line-height-alt: 0;
+        line-height: 0;
+        mso-margin-top-alt: 1px;
+	}
+</style>
+<![endif]-->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

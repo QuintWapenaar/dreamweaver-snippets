@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Linkedin Follow counter" description="followId is bijvoorbeeld: EvillageNL" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<a href="{{social network='linkedin' type='follow' title='' followId=''}}" target="_blank" alt="Linkedin (Volgen): " title=""><img width="117" height="20" border="0" style="display: block;" alt="" src="http://myclang.com/pub/resources/socialmedia/images/nl/linkedin_follow_bubble.png" data-attr-src="{{social_image id='49'}}" /></a>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

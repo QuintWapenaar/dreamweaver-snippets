@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Nur_Offer1_Min_Fill" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[{{campaign_option field='F16' campaignid='' name='Nur_Offer1_Min_Fill'}}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

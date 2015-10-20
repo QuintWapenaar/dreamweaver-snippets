@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Template Commented No MQ" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!-- You can use this template for your HTML newsletters. Please remove all the comments or risk spam box banishment.
+
+Using the xHTML doctype is a good practice when sending HTML email. While not the only doctype you can use, it seems to have the least inconsistencies. For more information on which one may work best for you, check out the resources below.
+
+More info:
+
+Campaign Monitor - http://www.campaignmonitor.com/blog/post/3317/correct-doctype-to-use-in-html-email/
+Email on Acid - http://www.emailonacid.com/blog/details/C18/doctype_-_the_black_sheep_of_html_email_design
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- Enables media queries on Windows Phone 8 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!-- utf-8 is standard, but you can also use iso-8859-1 or another iso -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- Favicon looks nice for the online version -->
+<link rel="shortcut icon" href="path/to/your/images/favicon.ico" type="image/x-icon" />
+<!-- Prevent iOS to display phonenumbers and dates differently -->
+<meta name="format-detection" content="telephone=no" />
+<title>Template</title>
+<style type="text/css">
+body {
+	/* Force clients to display emails at full width */
+	width: 100% !important;
+	/* Reset Styles */
+	margin: 0;
+	padding: 0;
+	/* Background-color for the entire body */
+	background-color: #ffffff;
+	/* Turns subpixel rendering off and instead uses the standard antialiasing technique to make fonts look smoother on Webkit platforms */
+	-webkit-font-smoothing: antialiased;
+	/* Prevent Webkit platforms from changing default font sizes. */
+	-webkit-text-size-adjust: none;
+	/* Prevent Windows Mobile platforms from changing default font sizes. */
+	-ms-text-size-adjust: none;
+}
+/* Force Outlook.com to display emails at full width */
+.ReadMsgBody {
+	width: 100%;
+}
+/* Force Outlook.com to display emails at full width */
+.ExternalClass {
+	width: 100%;
+}
+/* Force Outlook.com to display content at normal or defined line-height instead of 142% */
+.ExternalClass * {
+	line-height: 100%;
+}
+/* 1px border/padding fix for Outlook '07 & '10
+
+More info:
+http://www.ianhoar.com/2008/04/29/outlook-2007-borders-and-1px-padding-on-table-cells/ 
+http://www.campaignmonitor.com/blog/post/3392/1px-borders-padding-on-table-cells-in-outlook-07/ */
+table td {
+	border-collapse: collapse;
+}
+/* Use a wrapper table to control the width and the background color consistently of your email. Use this approach instead of setting attributes on the body tag. */
+.wrapper {
+	margin: 0;
+	padding: 0;
+	width: 100% !important;
+}
+/* Fix for purple visited links in Outlook '07 & '10 and fix for black-coloured links in Gmail
+
+More info purple visited links in Outlook '07 & '10:
+http://www.ianhoar.com/2008/12/06/outlook-2007-inline-styles-and-links/
+http://barrelmaker.us/wordpress/tag/outlook-2007/
+More info fix for black-coloured links in Gmail:
+http://www.campaignmonitor.com/blog/post/3648/gmail-turns-your-links-from-black-to-blue/
+http://www.e-village.nl/blog/27/Gmail-verwijdert-color-000000-zwart/ */
+a, a:link, a:visited, a:hover {
+	color: #000001;
+	text-decoration: none;
+}
+/* Fix for blue shortcuts links in Yahoo!
+
+Problem doesn't exist anymore!
+
+Yahoo! sometimes converts text to shortcutlinks. For example an address or something. It surrounds the text within a span and makes it blue with a bottom border and a background-color.
+
+span {
+	color:#000001;
+	text-decoration:none;
+	background:none;
+	border-bottom:none;
+}*/
+/* Gmail/Hotmail image display fix: Gmail and Hotmail unwantedly adds in an extra space below images when using non IE browsers.  This can be especially painful when you putting images on top of each other or putting back together an image you spliced for formatting reasons.  Either way, you can add 'style="display: block;"' to remove that space below the image.  Make sure to set alignment (don't use float) on your images if you are placing them inline with text. */
+img {
+	display: block;
+	line-height: 100%;
+	outline: none;
+	text-decoration: none;
+	/* Prevents AOL to add a margin to an image when using align="left" or align="right" on an image. */
+	margin: 0;
+}
+</style>
+<!-- Use this conditional comment for Outlook 2013 to prevent different heights on empty table cells in Outlook 2013. Table cells containing text needs a line-height, otherwise te content won't show up -->
+<!--[if gte mso 15]>
+<style type="text/css">
+	table {
+    	font-size:1px;
+        mso-line-height-alt:0;
+        line-height:0;
+        mso-margin-top-alt:1px;
+	}
+</style>
+<![endif]-->
+</head>
+<body>
+<!-- Use a wrapper table to control the width and the background color consistently of your email. Use this approach instead of setting attributes on the body tag. -->
+<table class="wrapper" bgcolor="#ffffff" width="100%" border="0" cellspacing="0" cellpadding="0" summary="">
+  <tr>
+    <td align="center" valign="top"><table width="600" border="0" cellspacing="0" cellpadding="0" summary="" align="center">
+        <tr>
+          <td align="left" valign="top"></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</body>
+</html>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

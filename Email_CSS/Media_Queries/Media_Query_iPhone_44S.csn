@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Media Query iPhone 4/4S" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[/* iPHONE 4/4S MEDIA QUERY */
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+/* specific styles for iPhone 4/4S */
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

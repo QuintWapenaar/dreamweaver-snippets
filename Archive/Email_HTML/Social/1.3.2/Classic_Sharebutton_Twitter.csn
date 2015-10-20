@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Classic Sharebutton Twitter" description="Classic Sharebutton Twitter" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<a title="Delen op Twitter" alt="html - Delen op Twitter" href="http://twitter.com/home?status=" target="_blank"><img src="http://myclang.com/images/twitter.gif" alt="Delen op Twitter" width="15" height="17" border="0" style="display:inline;"></a>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

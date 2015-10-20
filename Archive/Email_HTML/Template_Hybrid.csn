@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Template Hybrid" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="format-detection" content="telephone=no" />
+<link rel="shortcut icon" href="path/to/your/images/favicon.ico" type="image/x-icon" />
+<title>Template Mobile</title>
+<style type="text/css">
+body {
+	width: 100% !important;
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+}
+.ReadMsgBody {
+	width: 100%;
+}
+.ExternalClass {
+	width: 100%;
+}
+.ExternalClass * {
+	line-height: 100%;
+}
+table td {
+	border-collapse: collapse;
+}
+.wrapper {
+	margin: 0;
+	padding: 0;
+	width: 100% !important;
+	table-layout: fixed;
+}
+a, a:link, a:visited, a:hover {
+	color: #00a2c6;
+	text-decoration: none;
+}
+img {
+	display: block;
+	line-height: 100%;
+	outline: 0;
+	text-decoration: none;
+	margin: 0;
+}
+img[src$=".gif"], img[src$=".png"] {
+ image-rendering: -moz-crisp-edges;
+ -ms-interpolation-mode: nearest-neighbor;
+ image-rendering: -o-crisp-edges;
+ image-rendering: -webkit-optimize-contrast;
+}
+img[src$=".jpg"] {
+ image-rendering: optimizeQuality;
+ -ms-interpolation-mode: bicubic;
+}
+@media only screen and (max-width: 568px) {
+* [class=class] {
+...
+}
+}
+@media screen and (min-width:601px) {
+.container {
+width: 600px !important;
+}
+}
+</style>
+<!--[if gte mso 15]>
+<style type="text/css" media="all">
+table { font-size:1px; mso-line-height-alt:0; line-height: 0; mso-margin-top-alt:1px; }
+tr { font-size:1px; mso-line-height-alt:0; mso-margin-top-alt:1px; }
+</style>
+<![endif]-->
+</head>
+<body>
+<table class="wrapper" bgcolor="#ffffff" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" valign="top"><!--[if (gte mso 9)|(IE)]><table width="600" align="center" cellpadding="0" cellspacing="0" border="0"><tr><td><![endif]-->
+      <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="container" style="max-width: 600px;">
+        <tr>
+          <td>CONTENT</td>
+        </tr>
+      </table>
+      <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]--></td>
+  </tr>
+</table>
+</body>
+</html>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

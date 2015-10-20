@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Mobile Link Image" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<a href="" target="_blank" alt="" title=""><img src="" alt="" title="" border="0" width="100%" style="" /></a>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

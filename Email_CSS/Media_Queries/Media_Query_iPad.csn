@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Media Query iPad" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[/* iPAD MEDIA QUERY */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+/* specific styles for iPad */
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

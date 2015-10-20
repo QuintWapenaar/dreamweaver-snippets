@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Linkedin Recommend counter" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<a title="" alt="Linkedin (Aanraden): " target="_blank" href="{{social network='linkedin' type='recommend' title='' url=''}}"><img width="131" height="20" border="0" data-attr-src="{{social_image id='53'}}" src="http://myclang.com/pub/resources/socialmedia/images/nl/linkedin_recommend_bubble.png" alt=""
+style="display: block;" /></a>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

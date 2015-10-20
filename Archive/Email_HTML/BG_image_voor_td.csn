@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="BG image voor td" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<td width="" height="" valign="top" align="left" bgcolor="#000000" background="pad/naar/achtergrond/afbeelding.jpg">
+<!--[if gte mso 9]>
+<v:image xmlns:v="urn:schemas-microsoft-com:vml" id="image" style="behavior: url(#default#VML); display:inline-block; position:absolute; height: px; width: px; top:0; left:0; border:0; z-index:1;" src="pad/naar/achtergrond/afbeelding.jpg" />
+<v:shape xmlns:v="urn:schemas-microsoft-com:vml" id="text" style="behavior: url(#default#VML); display:inline-block; position:absolute; height: px; width: px; top:0; left:0; border:0; z-index:2;">
+<![endif]-->
+Plaats hier de content die voor de achtergrondafbeelding moet komen te staan.
+<!--[if gte mso 9]>
+</v:shape>
+<![endif]-->
+</td>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Nur_Points_Balance" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[{{campaign_option field='F18' campaignid='' name='Nur_Points_Balance'}}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

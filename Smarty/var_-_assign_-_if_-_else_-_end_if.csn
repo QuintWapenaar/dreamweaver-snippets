@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="var - assign - if - else - end if" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!--{{variabele name='naam' assign='var'}}{{if $var != ''}}-->
+<!--{{else}}-->
+<!--{{/if}}-->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

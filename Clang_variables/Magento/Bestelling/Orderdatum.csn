@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Orderdatum" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[{{magento field='order.order_date'}}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

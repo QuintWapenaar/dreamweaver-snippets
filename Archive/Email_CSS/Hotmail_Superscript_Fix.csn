@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Hotmail Superscript Fix" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[.ExternalClass img[class^=Emoji] {
+	width: 8px !important;
+	height: 8px !important;
+	vertical-align: super;
+	display: inline !important;
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

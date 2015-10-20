@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Currentdate" description="%m = maand (bv. 05) 
+%d = dag (bv. 03) 
+%Y = jaar (bv. 2011) 
+%A = geschreven dag (bv. woensdag) 
+%e = dag (bv. 6) 
+%B = geschreven maand (bv. juni) " preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[{{currentdate format=''}}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

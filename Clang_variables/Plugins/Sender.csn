@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Sender" description="Voeg deze toe aan een variabele om de gegevens van de verstuurder weer te geven." preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[type='sender']]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

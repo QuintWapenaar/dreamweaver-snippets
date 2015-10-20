@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="loop - foreach" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!--{foreach from=$array item=varNaam}-->
+{{$varNaam}}
+<!--{foreachelse}-->
+fallback
+<!--{/foreach}-->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

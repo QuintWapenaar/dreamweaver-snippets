@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="array - var_dump" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<pre>{{$dataset|var_dump}}</pre>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="VOC_Time_of_visit" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[{{customer_option field='E184' name='VOC_Time_of_visit'}}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

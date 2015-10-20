@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Address 1" description="Adres" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[{{customer field='address'}}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

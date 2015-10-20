@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Hyves Share" description="category = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
+
+1: Restaurant
+2: Cafe/Club
+3: Muziek
+4: Film
+5: Boeken
+6: Games
+7: Kunst
+8: Reizen
+9: Winkels
+10: Overig
+11: Kopie
+12: Website" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<a href="{{social network='hyves' type='share' title='' body='' category=''}}" target="_blank" alt="Hyves (Delen): " title=""><img width="93" height="20" border="0" style="display: inline;" alt="" src="http://myclang.com/pub/resources/socialmedia/images/en/hyves_share.png" /></a>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

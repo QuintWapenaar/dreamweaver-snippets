@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="DS_Volume_driven_by_Loyalty" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[{{customer_option field='E53' name='DS_Volume_driven_by_Loyalty'}}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

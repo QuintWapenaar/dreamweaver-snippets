@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Bol.com" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[http://www.bol.com/nl/static/images/favicon.ico]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snippet name="R_Offer_Points_Min" description="" preview="html" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[{{campaign_option field='F18' campaignid='' name='R_Offer_Points_Min'}}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

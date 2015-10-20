@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Facebook Like" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<a href="{{social network='facebook' type='like' title='' url=''}}" target="_blank" alt="Facebook (Vind ik leuk): " title=""><img width="81" height="20" border="0" style="display: inline;" alt="" src="http://myclang.com/pub/resources/socialmedia/images/en/facebook_like.png" /></a>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

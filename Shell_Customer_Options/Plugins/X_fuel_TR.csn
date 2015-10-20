@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="X_fuel TR" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[stringreplace='VPA,Shell V-Power,ANY,herhangi bir Shell yak&#305;t&#305;ndan']]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Linkedin Share" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<a href="{{social network='linkedin' type='share' title='' url=''}}" target="_blank" alt="Linkedin (Delen): " title=""><img width="61" height="20" border="0" style="display: block;" alt="" src="http://myclang.com/pub/resources/socialmedia/images/nl/linkedin_share.png" /></a>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

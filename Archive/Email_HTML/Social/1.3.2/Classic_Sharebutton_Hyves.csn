@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Classic Sharebutton Hyves" description="Classic Sharebutton Hyves" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<a title="Delen op Hyves" alt="html - Delen op Hyves" href="http://www.hyves.nl/profilemanage/add/tips/?name=&text=" target="_blank"><img src="http://myclang.com/images/hyves.gif" alt="Delen op Hyves" width="15" height="17" border="0" style="display:inline;"></a>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

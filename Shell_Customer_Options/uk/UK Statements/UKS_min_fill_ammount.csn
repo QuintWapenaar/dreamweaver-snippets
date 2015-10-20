@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="UKS_min_fill_ammount" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[{{customer_option field='E40' name='UKS_min_fill_ammount'}}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

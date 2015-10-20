@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Media Query Firefox" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[/* FIREFOX MEDIA QUERY */
+@-moz-document url-prefix() {
+/* specific styles for firefox */
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

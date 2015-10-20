@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="OL '13 Cell Height Fix 2" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<td height="1" style="height: 1px; font-size: 1px; mso-line-height-rule: exactly; line-height: 1%;">&nbsp;</td>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

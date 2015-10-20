@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Facebook Like counter" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<a title="" alt="Facebook (Vind ik leuk): " target="_blank" href="{{social network='facebook' type='like' title='' url=''}}"><img width="122" height="20" border="0" data-attr-src="{{social_image id='4'}}" src="http://myclang.com/pub/resources/socialmedia/images/en/facebook_like_bubble.png" alt="" style="display: inline;" /></a>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

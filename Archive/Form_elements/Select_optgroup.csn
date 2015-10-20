@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Select optgroup" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<select id="" name="">
+  <optgroup label="">
+    <option value=""></option>
+    <option value=""></option>
+  </optgroup>
+  <optgroup label="">
+    <option value=""></option>
+    <option value=""></option>
+  </optgroup>
+</select>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

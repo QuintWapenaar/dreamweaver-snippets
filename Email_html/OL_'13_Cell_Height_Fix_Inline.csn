@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="OL '13 Cell Height Fix Inline" description="Dmv height en font-size bepaal je de grootte van de tablecell in OL'13" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[<td height="1" style="font-size: 1px; line-height: 0px;">&nbsp;</td>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

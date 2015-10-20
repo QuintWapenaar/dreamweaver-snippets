@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Form environment" description="" preview="html" type="block">
+<insertText location="beforeSelection">
+<![CDATA[{{import field="environment" parse=false}}{{$environment}}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
