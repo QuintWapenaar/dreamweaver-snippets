@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="DS_Eligible_Volume" description="" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[{{customer_option field='E47' name='DS_Eligible_Volume'}}]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

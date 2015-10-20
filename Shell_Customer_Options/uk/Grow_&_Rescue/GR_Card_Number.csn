@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="GR_Card_Number" description="" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[{{customer_option field='E160' name='GR_Card_Number'}}]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

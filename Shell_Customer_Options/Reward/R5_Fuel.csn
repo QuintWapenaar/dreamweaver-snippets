@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="R5_Fuel" description="" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[{{campaign_option field='F49' campaignid='' name='R5_Fuel'}}]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

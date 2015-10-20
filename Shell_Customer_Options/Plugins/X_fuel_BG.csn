@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="X_fuel BG" description="" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[stringreplace='VPA,&#1075;&#1086;&#1088;&#1080;&#1074;&#1072;&#1090;&#1072; Shell&nbsp;V&minus;Power%2b,ANY,&#1075;&#1086;&#1088;&#1080;&#1074;&#1072;&#1090;&#1072; Shell']]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

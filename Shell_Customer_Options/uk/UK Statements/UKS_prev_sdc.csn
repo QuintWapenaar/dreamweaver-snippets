@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="UKS_prev_sdc" description="" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[{{customer_option field='E31' name='UKS_prev_sdc'}}]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

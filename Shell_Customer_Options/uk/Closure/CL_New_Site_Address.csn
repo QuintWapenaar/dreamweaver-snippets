@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="CL_New_Site_Address" description="" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[{{customer_option field='E64' name='CL_New_Site_Address'}}]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

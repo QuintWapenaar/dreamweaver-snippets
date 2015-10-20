@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="GR_Base_stock" description="" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[{{customer_option field='E106' name='GR_Base_stock'}}]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

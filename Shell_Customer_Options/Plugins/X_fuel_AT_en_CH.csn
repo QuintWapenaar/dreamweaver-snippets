@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="X_fuel AT en CH" description="" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[stringreplace='VPA,Shell V-Power Treibstoff,ANY,Shell Treibstoff,V95,Shell V-Power 95']]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

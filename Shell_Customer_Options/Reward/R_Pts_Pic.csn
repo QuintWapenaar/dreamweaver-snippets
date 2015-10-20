@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<snippet name="R_Pts_Pic" description="" preview="html" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[{{{campaign_option field='F27' campaignid='' name='R_Pts_Pic'}}]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

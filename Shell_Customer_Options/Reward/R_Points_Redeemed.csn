@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<snippet name="R_Points_Redeemed" description="" preview="html" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[{{campaign_option field='F22' campaignid='' name='R_Points_Redeemed'}}]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

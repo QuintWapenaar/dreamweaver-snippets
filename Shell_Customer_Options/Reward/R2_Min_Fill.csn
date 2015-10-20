@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="R2_Min_Fill" description="" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[{{campaign_option field='F38' campaignid='' name='R2_Min_Fill'}}]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

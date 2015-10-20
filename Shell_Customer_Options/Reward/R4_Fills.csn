@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="R4_Fills" description="" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[{{campaign_option field='F44' campaignid='' name='R4_Fills'}}]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

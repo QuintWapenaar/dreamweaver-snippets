@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="X_fuel HU" description="" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[stringreplace='VPA,Shell V-Power Nitro%2B,ANY,b&aacute;rmilyen Shell']]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>
