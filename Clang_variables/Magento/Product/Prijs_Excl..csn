@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Prijs Excl." description="" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[{{magento field='product.price_ex'}}]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

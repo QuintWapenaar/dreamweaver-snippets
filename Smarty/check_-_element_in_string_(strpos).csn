@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="check - element in string (strpos)" description="" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[{{if $myVar|strpos:'?' !== false}}yep{{else}}nope{{/if}}]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

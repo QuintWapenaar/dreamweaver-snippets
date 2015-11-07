@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Manual field" description="Handmatig veld" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[{{manual field=''}}]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

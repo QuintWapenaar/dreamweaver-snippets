@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Twitter Follow counter" description="followId is bijvoorbeeld: EvillageNL" preview="code" type="block">
-<insertText location="beforeSelection">
-<![CDATA[<a href="{{social network='twitter' type='follow' title='' followId=''}}" target="_blank" alt="Twitter (Follow): " title=""><img width="102" height="20" border="0" style="display: block;" alt="" src="http://myclang.com/pub/resources/socialmedia/images/en/twitter_follow_bubble.png" data-attr-src="{{social_image id='28'}}" /></a>]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

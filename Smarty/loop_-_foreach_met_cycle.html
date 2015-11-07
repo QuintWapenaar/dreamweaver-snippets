@@ -1,0 +1,10 @@
+﻿<!--{foreach from=$array item=varNaam}-->
+<!--{cycle values="links,rechts" assign="positie"}-->
+<!--{if $positie == "links"}-->
+{{$varNaam}} links
+<!--{else}-->
+{{$varNaam}} rechts
+<!--{/if}--> 
+<!--{foreachelse}-->
+fallback
+<!--{/foreach}-->

@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Viewurl (not personalized)" description="" preview="code" type="block">
-<insertText location="beforeSelection">
-<![CDATA[{{broadcast field='url'}}]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Facebook Recommend" description="Facebook Recommend" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[<a href="{{social network='facebook' type='recommend' title='' url=''}}" target="_blank" title="" alt="html - facebook - Recommend"><img src="http://myclang.com/resources/socialmedia/images/en/facebook_recommend.gif" title="" alt="Recommend" width="87" height="20" border="0" style="display: inline;" /></a>]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

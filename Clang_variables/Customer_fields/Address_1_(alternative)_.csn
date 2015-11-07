@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Address 1 (alternative) " description="Adres (alternatief) " preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[{{customer field='alt_address'}}]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

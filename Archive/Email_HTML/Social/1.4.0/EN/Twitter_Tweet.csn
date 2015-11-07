@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Twitter Tweet" description="" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[<a href="{{social network='twitter' type='tweet' title='' body=''}}" target="_blank" alt="Twitter (Tweet): " title=""><img width="55" height="20" border="0" style="display: inline;" alt="" src="http://myclang.com/pub/resources/socialmedia/images/en/twitter_tweet.png" /></a>]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

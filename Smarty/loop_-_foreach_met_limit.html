@@ -1,0 +1,7 @@
+﻿<!--{foreach from=$array item=varNaam name=loopNaam}-->
+<!--{if $smarty.foreach.loopNaam.iteration lte 10}-->
+{{$varNaam}}
+<!--{/if}-->
+<!--{foreachelse}-->
+fallback
+<!--{/foreach}-->

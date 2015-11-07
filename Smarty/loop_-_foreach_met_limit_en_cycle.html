@@ -1,0 +1,12 @@
+﻿<!--{foreach from=$array item=varNaam name=loopNaam}-->
+<!--{if $smarty.foreach.loopNaam.iteration lte 10}-->
+<!--{cycle values="links,rechts" assign="positie"}-->
+<!--{if $positie == "links"}-->
+{{$varNaam}} links
+<!--{else}-->
+{{$varNaam}} rechts
+<!--{/if}--> 
+<!--{/if}-->
+<!--{foreachelse}-->
+fallback
+<!--{/foreach}-->

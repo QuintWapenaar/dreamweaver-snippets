@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Twitter Follow" description="followId is bijvoorbeeld: EvillageNL" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[<a href="{{social network='twitter' type='follow' title='' followId=''}}" target="_blank" alt="Twitter (Volgen): " title=""><img width="61" height="20" border="0" style="display: inline;" alt="" src="http://myclang.com/pub/resources/socialmedia/images/nl/twitter_follow.png" /></a>]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

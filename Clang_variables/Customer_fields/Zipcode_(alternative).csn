@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Zipcode (alternative)" description="Postcode (alternatief)" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[{{customer field='alt_zipcode'}}]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

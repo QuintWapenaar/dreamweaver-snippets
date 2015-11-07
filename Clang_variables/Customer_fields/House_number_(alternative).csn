@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="House number (alternative)" description="Huisnummer (alternatief)" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[{{customer field='alt_addressnumber'}}]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Label" description="" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[<label id="" for=""></label>]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

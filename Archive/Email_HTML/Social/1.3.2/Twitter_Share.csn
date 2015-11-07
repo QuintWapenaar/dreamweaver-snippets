@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Twitter Share" description="Twitter Share" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[<a href="{{social network='twitter' type='share' title='' url=''}}" target="_blank" title="" alt="html - twitter - Share"><img src="http://myclang.com/resources/socialmedia/images/en/twitter_share.gif" title="" alt="Share link" width="55" height="20" border="0" style="display: inline;" /></a>]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

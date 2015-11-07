@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Salutation (formal)" description="Aanhef formeel" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[Geachte {{customer field='gender' default='heer/mevrouw' translation='heer,mevrouw,heer/mevrouw,heer/mevrouw' appendText=' '}}{{customer field='firstname' uppercasefirst='yes' appendText=' '}}{{customer field='prefix' uppercasefirst='yes' appendText=' '}}{{customer field='lastname' uppercasefirst='yes'}},]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Input checkbox" description="" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[<input id="" name="" type="checkbox" value="" />]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

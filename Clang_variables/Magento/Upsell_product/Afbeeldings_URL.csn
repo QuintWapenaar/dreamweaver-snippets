@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Afbeeldings URL" description="" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[{{magento field='upsellproduct.image'}}]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

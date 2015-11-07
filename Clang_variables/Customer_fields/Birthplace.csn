@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Birthplace" description="Geboorteplaats" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[{{customer field='birthplace'}}]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

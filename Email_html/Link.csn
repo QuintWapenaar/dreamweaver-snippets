@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Link" description="" preview="code" type="block">
-<insertText location="beforeSelection">
-<![CDATA[<a href="" target="_blank" alt="" title="" style="color: #000001; text-decoration: underline;"></a>]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

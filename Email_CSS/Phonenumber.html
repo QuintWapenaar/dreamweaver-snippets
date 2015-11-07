@@ -1,0 +1,10 @@
+﻿/* Plaats dit zowel in de head als inline */
+a.phonenumber {
+	pointer-events: none;
+	cursor: default
+}
+/* Plaats dit binnen je Media Query */
+a[class~="phonenumber"] {
+	pointer-events: auto !important;
+	cursor: auto !important
+}

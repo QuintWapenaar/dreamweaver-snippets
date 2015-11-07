@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Border bottom" description="" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #000000;]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

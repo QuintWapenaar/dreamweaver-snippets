@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Link Phonenumber" description="" preview="code" type="block">
-<insertText location="beforeSelection">
-<![CDATA[<a class="phonenumber" href="tel:+31612345678" title="" style="color: #000001; text-decoration: none;">06 - 12 34 56 78</a>]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Hyves Member counter" description="hubid is bijvoorbeeld: stopaidsnow van stopaidsnow.hyves.nl" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[<a href="{{social network='hyves' type='member' title='' hubid=''}}" target="_blank" alt="Hyves (Lid worden van merk/groep): " title=""><img width="135" height="20" border="0" style="display: inline;" alt="" src="http://myclang.com/pub/resources/socialmedia/images/nl/hyves_member_bubble.png" data-attr-src="{{social_image id='16'}}" /></a>]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

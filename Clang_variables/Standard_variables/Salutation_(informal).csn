@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Salutation (informal)" description="Aanhef informeel" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[Beste {{customer field='firstname' uppercasefirst='yes' appendText=' '}}{{customer field='prefix' uppercasefirst='yes' appendText=' '}}{{customer field='lastname' uppercasefirst='yes'}},]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

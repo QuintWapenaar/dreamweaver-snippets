@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Hyves Share NL" description="Hyves Share NL" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[<a href="{{social network='hyves' type='share' title='' body=''}}" target="_blank" title="" alt="html - hyves - Delen/Tip"><img src="http://myclang.com/resources/socialmedia/images/nl/hyves_share.gif" title="" alt="Delen/Tip" width="93" height="20" border="0" style="display: inline;" /></a>]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

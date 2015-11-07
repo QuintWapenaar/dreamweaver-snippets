@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Getalnotatie" description="Bijvoorbeeld: {{magento|number_format:2:'.':',' field='product.price'}}" preview="code" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[|number_format::'':'']]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>
